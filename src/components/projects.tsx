@@ -9,14 +9,14 @@ const Projects = () => {
                     <a href='https://github.com/pegasus4me/qoak-V2' className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">qoak</a>
                     <p className="text-white mt-2">
                         a fullstack social media app like reddit 
-                        build with Nextjs + typescript
+                        build with Nextjs + typescript + tailwindcss + prisma
                     </p>
                 </article>
                 <article className=" p-2">
                     <a href='https://github.com/pegasus4me/track_front' className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">orion</a>
                     <p className="text-white  ">
                         a fullstack time track app build with 
-                        react + express/sql
+                        react + tailwindcss + express/sql
                     </p>
                 </article>
                 <article className=" p-2">
@@ -31,7 +31,7 @@ const Projects = () => {
                     <a href='https://github.com/pegasus4me/Kozo' className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">kuzo</a>
                     <p className="text-white mt-2 ">
                         a fullstack social media app like reddit 
-                        build with Nextjs + typescript
+                        build with Nextjs + typescript + tailwindcss + pusherjs
                     </p>
                 </article>
                 <article className=" p-2">

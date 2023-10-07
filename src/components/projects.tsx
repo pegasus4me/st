@@ -20,7 +20,7 @@ const Projects = () => {
                     </p>
                 </article>
                 <article className=" p-2">
-                    <a href='https://github.com/pegasus4me/st.dev' className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">st.dev</a>
+                    <a href='https://github.com/pegasus4me/st' className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">st.dev</a>
                     <p className="text-white mt-2">
                         personal site build with nextjs
                     </p>

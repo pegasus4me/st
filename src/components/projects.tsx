@@ -13,7 +13,7 @@ const Projects = () => {
                     </p>
                 </article>
                 <article className=" p-2">
-                    <a href='https://github.com/pegasus4me/track_front' className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">orion</a>
+                    <a href='https://github.com/pegasus4me/prod' className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">orion</a>
                     <p className="text-white  ">
                         a fullstack time track app build with 
                         react + tailwindcss + express/sql

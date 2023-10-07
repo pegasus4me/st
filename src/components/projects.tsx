@@ -8,7 +8,7 @@ const Projects = () => {
                 <article className=" p-2">
                     <a href='https://github.com/pegasus4me/qoak-V2' className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">qoak</a>
                     <p className="text-white mt-2">
-                        a fullstack social media app like reddit 
+                        a fullstack social media app like omegle but for messaging 
                         build with Nextjs + typescript + tailwindcss + prisma
                     </p>
                 </article>

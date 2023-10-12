@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-[#161617]">
     <body className={`${inter.className} max-w-[820px] m-auto`}>
       {children}
       <Footer/>

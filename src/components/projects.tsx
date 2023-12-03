@@ -51,6 +51,14 @@ const Projects = () => {
                         and hardhat + TS for units tests
                     </p>
                 </article>
+                <article className=" p-2">
+                    <div className="flex items-center gap-5">
+                    <a href="https://github.com/pegasus4me/Qamar-MVP">Qamar studio</a>
+                    </div>
+                    <p className="text-white mt-2">
+                       platform who connects consultants and students fully working + payment integrated
+                    </p>
+                </article>
             </div>
         </section>
 

@@ -59,6 +59,15 @@ const Projects = () => {
                        platform who connects consultants and students fully working + payment integrated
                     </p>
                 </article>
+                <article className=" p-2">
+                    <div className="flex items-center gap-5">
+                    <a href="https://github.com/pegasus4me/Dapp_01.git" className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">Distortion stake</a>
+                    </div>
+                    <p className="text-white mt-2">
+                       decentralised application where user can stake/ unstake their eth and earn stacking rewards 
+                        built with solidity for the smart contracts + hardhat for the dev environement on backend size and nextjs + viem + wagmi on client side 
+                    </p>
+                </article>
             </div>
         </section>
 

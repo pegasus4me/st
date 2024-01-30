@@ -37,7 +37,7 @@ const Projects = () => {
                 <article className=" p-2">
                     <div className="flex items-center gap-5">
                     <a href='https://github.com/pegasus4me/dense' className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">dense</a>
-                    <Audio name="in progress"/>
+                    
                     </div>
                     <p className="text-white mt-2">
                         a decentralised foundraising app 

@@ -68,6 +68,15 @@ const Projects = () => {
                         built with solidity for the smart contracts + hardhat for the dev environement on backend size and nextjs + viem + wagmi on client side 
                     </p>
                 </article>
+                <article className=" p-2">
+                    <div className="flex items-center gap-5">
+                    <a href="https://github.com/pegasus4me/Linke.fi" className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">Linki.fi</a>
+                    </div>
+                    <p className="text-white mt-2">
+                       Dapp Built with on the ERC4626 implementation who takes USDC as underlined assets and give to stakers vSUsdc with 1.5% apy and takes 0.5% for deposit and withdraws 
+                        Built used solidity + viem + wagmi + wallet connect for the wallet integration and hardhat for the contracts environment
+                    </p>
+                </article>
             </div>
         </section>
 

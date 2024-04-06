@@ -77,6 +77,14 @@ const Projects = () => {
                         Built used solidity + viem + wagmi + wallet connect for the wallet integration and hardhat for the contracts environment
                     </p>
                 </article>
+                  <article className=" p-2">
+                    <div className="flex items-center gap-5">
+                    <a href="https://github.com/pegasus4me/sabre-DAO" className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">Sabre DAO</a>
+                    </div>
+                    <p className="text-white mt-2">
+                       a decentralised VC leveraging the power of community to build a more fair and distributed investment power among the participants 
+                    </p>
+                </article>
             </div>
         </section>
 

@@ -7,7 +7,7 @@ import { MdOutlineMail } from "react-icons/md";
 
 const Footer = () => {
     return (
-        <div className='border-t mt-32 opacity-40'>
+        <div className='border-t mt-32 opacity-40 relative bottom-0 start-0 z-50'>
             <div className='flex items-center justify-between'>
             <p className='text-[#CFCFCF] p-1 font-light'>safoan touil</p>
             <div className='flex gap-3'>

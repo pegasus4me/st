@@ -5,6 +5,7 @@ const Projects = () => {
         <h2 className="text-white font-normal text-xl mb-4">Pro<span className="font-light text-[#888888]">jects</span></h2>
         <section className="flex gap-7">
             <div>
+    
                 <article className=" p-2">
                     <a href='https://github.com/pegasus4me/qoak-V2' className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">qoak</a>
                     <p className="text-white mt-2">
@@ -28,6 +29,15 @@ const Projects = () => {
             </div>
             <div>
             <article className=" p-2">
+                   <div className="flex items-center gap-4">
+                   <a href='https://github.com/Monadex-Labs' className="underline text-orange-400 underline-offset-4 decoration-dotted">Monadex labs</a>
+                   <Audio/>
+                   </div>
+                    <p className="text-white mt-2">
+                        Co-founder and current CEO of Monadex Labs, currently building the next DEX custom and gamified experience on Monad L1
+                    </p>
+            </article>
+            <article className=" p-2">
                     <a href='https://github.com/pegasus4me/Kozo' className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">kuzo</a>
                     <p className="text-white mt-2 ">
                         a fullstack social media app like reddit 
@@ -36,27 +46,18 @@ const Projects = () => {
                 </article>
                 <article className=" p-2">
                     <div className="flex items-center gap-5">
-                    <a href='https://github.com/pegasus4me/dense' className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">dense</a>
-                    
-                    </div>
-                    <p className="text-white mt-2">
-                        a decentralised foundraising app 
-                        build with solidity + nextjs and TS
-                    </p>
-                </article>
-                <article className=" p-2">
-                    <a href='https://github.com/pegasus4me/TheTempestCasino' className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">TheTempestCasino</a>
-                    <p className="text-white mt-2">
-                        Smart contracts builds with solidity 
-                        and hardhat + TS for units tests
-                    </p>
-                </article>
-                <article className=" p-2">
-                    <div className="flex items-center gap-5">
                     <a href="https://github.com/pegasus4me/Qamar-MVP" className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">Qamar studio</a>
                     </div>
                     <p className="text-white mt-2">
                        platform who connects consultants and students fully working + payment integrated
+                    </p>
+                </article>
+                <article className=" p-2">
+                    <div className="flex items-center gap-5">
+                    <a href="https://github.com/pegasus4me/paystream-interface" className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">Paystream</a>
+                    </div>
+                    <p className="text-white mt-2">
+                      Project built on 3 days for Paypal stablecoin hackaton who permits users to live stream money from peer2peer 
                     </p>
                 </article>
                 <article className=" p-2">
@@ -82,7 +83,8 @@ const Projects = () => {
                     <a href="https://github.com/pegasus4me/sabre-DAO" className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">Sabre DAO</a>
                     </div>
                     <p className="text-white mt-2">
-                       a decentralised VC leveraging the power of community to build a more fair and distributed investment power among the participants 
+                       a decentralised VC leveraging the power of community to build a more fair and distributed investment power among the participants.
+                       <span className="text-orange-400 text-sm italic">Got the 6th place on lw3 hackaton</span>
                     </p>
                 </article>
             </div>

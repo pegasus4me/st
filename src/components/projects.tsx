@@ -31,7 +31,7 @@ const Projects = () => {
             <article className=" p-2">
                    <div className="flex items-center gap-4">
                    <a href='https://github.com/Monadex-Labs' className="underline text-orange-400 underline-offset-4 decoration-dotted">Monadex labs</a>
-                   <Audio/>
+                   <Audio name="live"/>
                    </div>
                     <p className="text-white mt-2">
                         Co-founder and current CEO of Monadex Labs, currently building the next DEX custom and gamified experience on Monad L1

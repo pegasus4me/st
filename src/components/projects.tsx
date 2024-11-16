@@ -3,7 +3,7 @@ const Projects = () => {
     return (
       <div className="p-3 mt-8">
         <h2 className="text-white font-normal text-xl mb-4">Pro<span className="font-light text-[#888888]">jects</span></h2>
-        <section className="flex gap-7">
+        <section className="flex flex-col-reverse md:flex-row">
             <div>
     
                 <article className=" p-2">

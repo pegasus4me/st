@@ -28,6 +28,26 @@ const Projects = () => {
                 </article>
             </div>
             <div>
+                <article className=" p-2">
+                   <div className="flex items-center gap-4">
+                   <a href='https://github.com/Monkeey' className="underline text-orange-400 underline-offset-4 decoration-dotted">Monkeey</a>
+                   <Audio name="live"/>
+                   </div>
+                    <p className="text-white mt-2">
+                        One click Deployment infrastructure that fixes itself, we vibecode now we need to vibeDeploy, built Solo in 6 hours during hackaton in station F, nomined as finalist from 400 participants and 120 teams
+                        Built using typescript for the backend with express | Mistral + langgraph for agentics orchestration | nextjs+TS for the frontend 
+                    </p>
+            </article>
+            <article className=" p-2">
+                   <div className="flex items-center gap-4">
+                   <a href='https://github.com/sourcerr' className="underline text-orange-400 underline-offset-4 decoration-dotted">Monkeey</a>
+                   <Audio name="live"/>
+                   </div>
+                    <p className="text-white mt-2">
+                        A AI sourcing compagnion that lets you source top talents based on recruiters requirements, we source talents from a data sources with more than 800M+ profiles
+                        used Python | langgraph | and grok as LLM + Typescript + nextjs as frontend tech | postgreSQL as DB | people data labs as data source layer
+                    </p>
+            </article>
             <article className=" p-2">
                    <div className="flex items-center gap-4">
                    <a href='https://github.com/Monadex-Labs' className="underline text-orange-400 underline-offset-4 decoration-dotted">Monadex labs</a>
@@ -35,6 +55,7 @@ const Projects = () => {
                    </div>
                     <p className="text-white mt-2">
                         Co-founder and current CEO of Monadex Labs, currently building the next DEX custom and gamified experience on Monad L1
+                        Starting from 0 we achieved +500k unique users, more than 4M transactions mades, 40k followers across socials, and 4millions usd TVL at peak on testnet
                     </p>
             </article>
             <article className=" p-2">
@@ -95,3 +116,4 @@ const Projects = () => {
   };
   
   export default Projects;
+

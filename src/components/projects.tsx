@@ -30,7 +30,7 @@ const Projects = () => {
             <div>
                 <article className=" p-2">
                    <div className="flex items-center gap-4">
-                   <a href='https://github.com/Monkeey' className="underline text-orange-400 underline-offset-4 decoration-dotted">Monkeey</a>
+                   <a href='https://github.com/Monkeey' className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">Monkeey</a>
                    </div>
                     <p className="text-white mt-2">
                         One click Deployment infrastructure that fixes itself, we vibecode now we need to vibeDeploy, built Solo in 6 hours during hackaton in station F, nomined as finalist from 400 participants and 120 teams
@@ -39,7 +39,7 @@ const Projects = () => {
             </article>
             <article className=" p-2">
                    <div className="flex items-center gap-4">
-                   <a href='https://github.com/sourcerr' className="underline text-orange-400 underline-offset-4 decoration-dotted">Kubik</a>
+                   <a href='https://github.com/sourcerr' className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">Kubik</a>
                    <Audio name="live"/>
                    </div>
                     <p className="text-white mt-2">
@@ -49,7 +49,7 @@ const Projects = () => {
             </article>
             <article className=" p-2">
                    <div className="flex items-center gap-4">
-                   <a href='https://github.com/Monadex-Labs' className="underline text-orange-400 underline-offset-4 decoration-dotted">Monadex labs</a>
+                   <a href='https://github.com/Monadex-Labs' className="underline text-[#CFCFCF] underline-offset-4 decoration-dotted">Monadex labs</a>
                    <Audio name="live"/>
                    </div>
                     <p className="text-white mt-2">
@@ -115,5 +115,6 @@ const Projects = () => {
   };
   
   export default Projects;
+
 
 

@@ -11,16 +11,15 @@ const Intro = () => {
         "Simplicity is the real complexity"
       </p>
       <p className="font-light text-white/80 text-lg mt-3 mb-3">
-        Right now I'm building Monadex, a custom, gamified and user-friendly AMM
-        engine on Monad L1 with 4 others co-founders.
+        Right now I'm building Weppo, We help global tech teams Stop Wasting Hours Every Day on Handoffs.
       </p>
       <p className="mb-4 text-white ">
         <span className="font-semibold text-white">wanna talk?</span>
-        <span className="font-medium text-white/80"> @soso.monad</span> on
-        discord
+        <span className="font-medium text-white/80">touilsafoan@gmail.com</span> 
       </p>
       <div className="min-h-[70px] border-l border-r border-dotted opacity-40"></div>
     </div>
   );
 };
 export default Intro;
+
